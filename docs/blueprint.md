@@ -1,18 +1,21 @@
-# **App Name**: KyozoConnect2
+
+# **App Name**: KyozoConnect
 
 ## Core Features:
 
-- User Authentication: Secure user login and registration using Firebase authentication.
-- Data Storage: Store and manage user data using Firestore.
-- Profile Creation: Allow users to create and customize their profiles, with data stored in Firestore.
-- GitHub Integration: Project hosted on user's Github, and continuously backed up.
+- Google Authentication: Allows users to log in using their Google accounts via Firebase Authentication.
+- Community List: Displays a list of communities fetched from MongoDB, sorted by name and showing each community's name and ID.
+- Member List: Shows a list of members for the selected community, retrieved from MongoDB.
+- Message List: Presents a list of messages for the logged-in user within the selected community, sourced from MongoDB.
+- Intelligent Summaries (AI): Leverages generative AI to create concise summaries of message threads within a community. LLM uses database data as a tool to generate output.
 
 ## Style Guidelines:
 
-- Primary color: Deep indigo (#3F51B5) to convey trust and stability.
-- Background color: Very light indigo (#F0F2F9). The background is nearly the same hue as the primary, but extremely desaturated for subtlety.
-- Accent color: Violet (#9C27B0). A brighter, more saturated color is useful for highlighting UI elements and actions.
-- Font: 'Inter', a sans-serif typeface known for its legibility, for both headings and body text.
-- Use clean, minimalist icons from a consistent set (e.g., Material Design Icons).
-- Employ a grid-based layout for consistent spacing and alignment.
-- Subtle animations for transitions and feedback to improve UX.
+- Primary color: Deep purple (#6750A4) to convey sophistication and connection.
+- Background color: Light lavender (#E6E0EA), a desaturated hue of the primary for a calm background.
+- Accent color: Soft blue (#546E7A), analogous to the primary color, to provide contrast.
+- Body and headline font: 'Inter', a grotesque-style sans-serif, for a clean and modern feel.
+- Use consistent, minimalist icons to represent communities, users, and message types.
+- Employ a three-column layout to display the community list, member list, and message list simultaneously.
+- Incorporate subtle transition animations when switching between communities or loading new messages.
+
